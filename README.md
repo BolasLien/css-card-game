@@ -1,5 +1,5 @@
 # 抽卡小遊戲
-由此進入 https://bolaslien.github.io/js-qia-pian-BolasLien/
+由此進入 https://bolaslien.github.io/css-card-game/
 ## 練習內容
 * CSS動畫
 * JQuery程式
