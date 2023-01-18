@@ -279,7 +279,7 @@
             <div id="bg"></div>
             <div id="turn-card">
                 <div id="forward">
-                    <img class="zack-img"></img>
+                    <img class="zack-img" src="./images/z.png"></img>
                     <div id="forward-bg"></div>
                     <p class="zack-text"></p>
                     <a class="zack-link">貼文連結</a>
@@ -360,7 +360,7 @@
             try {
                 let json = await axios.get('https://api.kento520.tw/zack/?rand')
 
-                $('.zack-img').attr('src', json.data.image)
+                // $('.zack-img').attr('src', json.data.image)
                 $('.zack-text').text(json.data.description)
                 $('.zack-link').attr('href', json.data.link)
 
